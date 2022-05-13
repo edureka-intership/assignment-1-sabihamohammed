@@ -1,0 +1,310 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family:Poppins;
+    position: relative;
+
+}
+body {
+    margin: 0px;
+}
+
+#header {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+}
+
+#container_header {
+    width: 80%;
+    height: inherit;
+    position: relative;
+    left:10%;
+    background-color:rgb(199, 18, 18);
+}
+
+#content {
+    width: 100%;
+    height: 750px;
+    
+
+}
+
+#container_content {
+    width: 80%;
+    height: 900px;
+    position: relative;
+    left: 10%;
+    background-color: ghostwhite;   
+
+}
+
+#content_header {
+    width: 100%;
+    height: 100px;
+    
+   
+}
+#content_header h1{
+
+position: relative;
+top: 20px;
+}
+
+
+#content_left {
+    width: 19%;
+    height: 600px;
+    float: left;
+    background-color: white;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+   
+    
+}
+#cc_selector select{
+   
+    width: 80%;
+    padding: 1%;
+    font-size: 20px;
+    font-weight:100;
+    opacity: 0.9;
+    color: rgba(140, 150, 171, 1);
+
+   
+    
+}
+#cc_checkbox label{
+     font-size: 22px;
+    font-weight: 400;
+    opacity: 0.8;
+    color: rgba(140, 150, 171, 1);
+   margin-left:3px;
+
+}
+#cc_radio{
+    width: 90%;
+    height: 30%;
+    color: rgba(140, 150, 171, 1);
+    
+    
+}
+#cc_radio input{
+    margin-top:2%;
+    width: 15px;
+    height: 15px;
+
+}
+   
+#cc_radio label{
+    font-size: 22px;
+    font-weight: 300;
+    opacity: 0.8;
+ color: rgba(140, 150, 171, 1);
+    
+}
+
+#content_right {
+    width: 80%;
+    height: 600px;
+    float: right;
+    background-color: ghostwhite;
+
+}
+
+#cr_one {
+    width: 90%;
+    height: 255px;
+    background-color: white;
+       margin-left:40px;
+}
+#cc_image
+{
+    height: 150px;
+    width: 30%;
+    float: left;
+}
+#cc_image_pic
+{
+    width: 70%;
+    height: 80%;   
+    border-radius: 25%;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+#cr_content h1
+{
+    color:  #192F60 ;
+    padding: 2% 0% 0% 0%;
+    font-weight: bolder;
+    float: left;
+    margin-top: 0px;
+}
+#cr_content p{
+     color:  #192F60 ;
+    padding: 8% 0% 2% 4%;
+   font-weight: bold;
+   font-size: 14px;
+opacity: 0.5;
+    
+}
+
+
+
+#cr_cc
+{
+    margin-top: 0%;
+    width: 69%;
+    height: 100%;
+    float: left;
+    padding: 1% 1% 0% 3%  ; 
+}
+
+
+#cr_two {
+    width: 90%;
+    height: 255px;
+    background-color: white;
+     margin-left:40px;
+    margin-top:3%
+   
+   
+}
+#cc_2_image{
+
+    height: 150px;
+    width: 30%;
+    float: left;
+    position: relative;
+    bottom:65%;
+    
+
+}
+#cc_2_image_pic
+{
+    width: 70%;
+    height: 80%;   
+    border-radius: 25%;
+    padding-left: 10%;
+    padding-top: 8%;
+}
+#cr_2_content h1
+{
+    color:  #192F60 ;
+    padding: 2% 0% 0% 0%;
+    font-weight: bolder;
+    float: left;
+    position:relative;
+    bottom: 160px;
+}
+
+#cr_2_content p{
+     color:  #192F60 ;
+    padding: 8% 2% 4% 0%;
+   font-weight: bold;
+   font-size: 14px;
+opacity: 0.5;
+right:43%;
+    
+}
+
+
+
+#cr_2_cc
+{
+    margin-top: 0%;
+    width: 69%;
+    height: 100%;
+    float: left;
+    padding: 1% 1% 0% 3%  ; 
+    position:relative;
+    bottom:130px;
+}
+#cr_three {
+    width: 80%;
+    height: 100px;
+    
+ margin-left:40px;
+   bottom:30px;
+    
+}
+.pagination {
+    display: inline-block;
+}
+.center {
+    text-align:center;
+}
+.pagination a {
+    font-weight:bold;
+    font-size:20px;
+    color: black;
+    float: left;
+    margin:0px 5px;
+    padding: 8px 16px;
+    text-decoration: none;
+    border:1px solid black;
+     top: -200px;
+}
+.pagination a.active {
+    background-color:#009900;
+}
+.pagination a:hover:not(.active) {
+    background-color: #d4d5d2;
+}
+.cr_pagi {
+    font-size:42px;
+    font-weight:bold;
+    color:#009900;
+    text-align:center;
+    margin-bottom:60px;
+   
+}
+
+#hc_logo
+{
+    width: 10%;
+    height: 100%;
+    float: left;
+    margin-left: 10%;
+   
+}
+#logo
+{
+    width: 35%;
+    height: 70%;
+    border-radius: 50%;
+    margin-top: 7%;
+    opacity: 1;
+    
+}
+
+#ch{
+    float: right;
+    margin-right: 70px;
+    margin-top: 20px;
+}
+#log{
+    color: white;
+    text-align: center;
+    height: 100%;
+    margin-right: 20px;
+    font-size: 20px;
+}
+#button{
+  background-color:rgb(199, 18, 18);
+  border: 2px solid white;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top:0px;
+}
+
+
+span {
+    display: none;
+}
+
+
